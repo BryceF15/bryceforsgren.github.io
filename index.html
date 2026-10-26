@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en" data-motion="on">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bryce Forsgren · Mechanical Engineer</title>
+  <meta name="description" content="Bryce Forsgren, MIT mechanical engineering. Composite structures, precision mechanisms, thermal-fluid systems and vehicle testing.">
+  <meta name="theme-color" content="#1b2a66">
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/intertight-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+  <!-- Light by default (easiest to read); remembers the visitor's toggle. -->
+  <script>(function(){try{var t=localStorage.getItem("bf-theme");if(t==="dark")document.documentElement.dataset.theme="dark";}catch(e){}})();</script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================ NAV ============================ -->
+  <header class="topnav on-photo" id="topnav">
+    <div class="group">
+      <a class="brand" href="#top" aria-label="Bryce Forsgren, back to top">
+        <svg data-mark viewBox="0 0 110.89 68.8" aria-hidden="true"></svg>
+        <span>Bryce Forsgren</span>
+      </a>
+    </div>
+    <nav class="nav-sections" aria-label="Sections">
+      <a class="pill" href="#work">Work</a>
+      <a class="pill" href="#building">Building</a>
+      <a class="pill" href="#experience">Experience</a>
+      <a class="pill" href="#teaching">Teaching</a>
+      <a class="pill" href="#photos">Photos</a>
+    </nav>
+    <div class="group right">
+      <button class="pill theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark">
+        <span class="ti" data-icon="theme"></span><span class="tl">Theme</span>
+      </button>
+      <a class="pill solid" href="#resume">Resume</a>
+      <button class="pill icon nav-menu-btn" type="button" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span data-icon="menu"></span>
+      </button>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-label="Menu">
+    <ol>
+      <li style="--i:0"><a href="#work">Work</a></li>
+      <li style="--i:1"><a href="#building">Building</a></li>
+      <li style="--i:2"><a href="#experience">Experience</a></li>
+      <li style="--i:3"><a href="#teaching">Teaching</a></li>
+      <li style="--i:4"><a href="#photos">Photos</a></li>
+      <li style="--i:5"><a href="#resume">Resume</a></li>
+    </ol>
+    <div class="mobile-menu-foot"><span>MIT Mechanical Engineering</span><a data-email-link href="#">Email me</a></div>
+  </div>
+
+  <main id="main">
+    <!-- ============================ HERO ============================
+         Optional photo: drop assets/img/hero.jpg and it shows faintly
+         behind the flow field. -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/img/hero.jpg" alt="" onerror="this.remove()">
+      </div>
+      <canvas class="flow" aria-hidden="true"></canvas>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <!-- Outlined words drifting behind the name. Change them freely. -->
+      <div class="ghost" aria-hidden="true"><span class="g1">Design</span><span class="g2">Build</span><span class="g3">Test</span></div>
+
+      <div class="hero-inner container">
+        <div class="hero-top">
+          <p class="hero-lede" data-person-line></p>
+          <div class="hero-meta">
+            <strong>MIT Mechanical Engineering</strong>
+            <span>Class of 2027 · Cambridge, MA</span>
+          </div>
+        </div>
+        <div class="hero-name">
+          <h1 class="hero-title" id="hero-title" aria-label="Bryce Forsgren">
+            <span class="hero-title-inner" aria-hidden="true">
+              <span class="line">Bryce</span><span class="ch gap">&nbsp;</span><span class="line">Forsgren</span>
+            </span>
+          </h1>
+          <p class="hero-role">— Mechanical engineer</p>
+        </div>
+      </div>
+
+      <!-- Spinning scroll badge -->
+      <a class="badge" href="#work" aria-label="Scroll to the work">
+        <svg class="ring" viewBox="0 0 128 128" aria-hidden="true">
+          <defs><path id="ring-path" d="M64 64 m-50 0 a50 50 0 1 1 100 0 a50 50 0 1 1 -100 0"/></defs>
+          <text><textPath href="#ring-path" textLength="308" lengthAdjust="spacing">See the work · Scroll down ·</textPath></text>
+        </svg>
+        <span class="arrow" data-icon="down"></span>
+      </a>
+      <p class="hero-hint" aria-hidden="true">Move your cursor through the flow</p>
+    </section>
+
+    <!-- ========================= STATEMENT ========================= -->
+    <section class="statement container" id="about" aria-label="About">
+      <figure class="portrait reveal">
+        <img src="assets/img/headshot.jpg" alt="Bryce Forsgren, smiling, in a dark suit with a lavender tie" width="781" height="995" loading="eager" decoding="async">
+        <figcaption>Bryce Forsgren · MIT MechE, Class of 2027</figcaption>
+      </figure>
+      <p class="statement-text" data-ink>I like problems that cross the lines between disciplines: carbon fiber that has to survive a race weekend, a flexure that has to hold its position every time, a fluid that has to land where the model says. I design it, build it, instrument it, and test it until the data agrees.</p>
+      <dl class="facts reveal">
+        <div><dt>Studying</dt><dd>SB Mechanical Engineering, MIT, June 2027</dd></div>
+        <div><dt>Racing</dt><dd>Testing lead and monocoque R&amp;D lead, MIT Motorsports</dd></div>
+        <div><dt>Industry</dt><dd>SpaceX, Dragon, Summer 2025</dd></div>
+      </dl>
+    </section>
+
+    <!-- ======================= SELECTED WORK ======================= -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="work-title">Selected <span class="hl">work</span></h2>
+          <p>Two projects start to finish: what I built, what I did myself, and what came out of it.</p>
+        </div>
+        <div data-featured></div>
+        <div class="also">
+          <h3 class="subhead">Also built</h3>
+          <div data-also></div>
+        </div>
+      </div>
+      <div class="peek" data-peek aria-hidden="true"></div>
+    </section>
+
+    <!-- ===================== NOW BUILDING (cobalt) ===================== -->
+    <section class="section band-cobalt" id="building" aria-labelledby="building-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="building-title">Now building</h2>
+          <p>Four projects in motion this year, with where each one stands and what comes next.</p>
+        </div>
+        <div class="ledger reveal">
+          <div class="ledger-head" aria-hidden="true">
+            <span>Project</span><span>Discipline</span><span>Where it stands</span><span>Next</span><span></span>
+          </div>
+          <div data-building></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== EXPERIENCE ======================== -->
+    <section class="section" id="experience" aria-labelledby="xp-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="xp-title">Experience</h2>
+          <p>Where the work happened.</p>
+        </div>
+        <div class="xp" data-experience></div>
+      </div>
+    </section>
+
+    <!-- ========================= TEACHING =========================
+         Edit the list in js/data.js (teaching). -->
+    <section class="section band-lav" id="teaching" aria-labelledby="teach-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="teach-title">Teaching <span class="hl">&amp; mentoring</span></h2>
+          <p>Teaching assistant, tutor and lab mentor across the MechE curriculum.</p>
+        </div>
+        <div class="teach" data-teaching></div>
+      </div>
+    </section>
+
+    <!-- ===================== PHOTOGRAPHY (light blue) ===================== -->
+    <section class="section band-sky" id="photos" aria-labelledby="photos-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="photos-title">Photographs</h2>
+          <p>Mostly from before college: shallow focus, strong perspective, buildings and landscapes. Click any frame to see it large.</p>
+        </div>
+        <div class="photos-grid" data-photos></div>
+        <div class="before-after reveal" data-edit></div>
+      </div>
+      <dialog class="lightbox" data-lightbox aria-label="Photo viewer"></dialog>
+    </section>
+
+    <!-- ========================== RESUME ========================== -->
+    <section class="section band-light" id="resume" aria-labelledby="resume-title">
+      <div class="container resume-grid">
+        <div class="section-head reveal">
+          <h2 id="resume-title">Resume</h2>
+          <p>One page, the short version of everything above.</p>
+          <div class="resume-actions">
+            <a class="pill solid" data-resume-link href="#" download><span data-icon="download"></span>Download PDF</a>
+            <a class="pill" data-resume-view href="#" target="_blank" rel="noopener">Open in a new tab</a>
+          </div>
+        </div>
+        <dl class="resume-facts reveal" data-resume></dl>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT (night) ===================== -->
+    <section class="section band-night" id="contact" aria-labelledby="contact-title">
+      <div class="container contact reveal">
+        <div>
+          <h2 id="contact-title">Say <span>hello</span></h2>
+          <a class="big-link" data-email-link href="#"></a>
+        </div>
+        <div class="contact-links" data-contact-links></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-word" aria-hidden="true">Build · Test · Iterate</span>
+    <div class="container">
+      <span>© <span data-year></span> Bryce Forsgren</span>
+      <a class="text-link" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/flow.js"></script>
+</body>
+</html>

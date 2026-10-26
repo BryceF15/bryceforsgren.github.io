@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-motion="on">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project · Bryce Forsgren</title>
+  <meta name="description" content="A project case study by Bryce Forsgren, MIT mechanical engineering.">
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/intertight-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
+  <script>(function(){try{var t=localStorage.getItem("bf-theme");if(t==="dark")document.documentElement.dataset.theme="dark";}catch(e){}})();</script>
+</head>
+<!-- One template for every case study. The content comes from js/data.js,
+     chosen by the ?p=<slug> in the address, e.g. project.html?p=flexure-clamps -->
+<body data-page="project">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topnav on-photo" id="topnav" data-dark-top>
+    <div class="group">
+      <a class="brand" href="index.html" aria-label="Bryce Forsgren, home">
+        <svg data-mark viewBox="0 0 110.89 68.8" aria-hidden="true"></svg>
+        <span>Bryce Forsgren</span>
+      </a>
+    </div>
+    <nav class="nav-sections" aria-label="Sections">
+      <a class="pill" href="index.html#work">Work</a>
+      <a class="pill" href="index.html#building">Building</a>
+      <a class="pill" href="index.html#experience">Experience</a>
+      <a class="pill" href="index.html#teaching">Teaching</a>
+      <a class="pill" href="index.html#photos">Photos</a>
+    </nav>
+    <div class="group right">
+      <button class="pill theme-toggle" type="button" data-theme-toggle aria-label="Switch colour theme">
+        <span class="ti" data-icon="theme"></span><span class="tl">Theme</span>
+      </button>
+      <a class="pill solid" href="index.html#resume">Resume</a>
+      <button class="pill icon nav-menu-btn" type="button" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span data-icon="menu"></span>
+      </button>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-label="Menu">
+    <ol>
+      <li style="--i:0"><a href="index.html#work">Work</a></li>
+      <li style="--i:1"><a href="index.html#building">Building</a></li>
+      <li style="--i:2"><a href="index.html#experience">Experience</a></li>
+      <li style="--i:3"><a href="index.html#teaching">Teaching</a></li>
+      <li style="--i:4"><a href="index.html#photos">Photos</a></li>
+      <li style="--i:5"><a href="index.html#resume">Resume</a></li>
+    </ol>
+    <div class="mobile-menu-foot"><span>MIT Mechanical Engineering</span><a data-email-link href="#">Email</a></div>
+  </div>
+
+  <main id="main" data-case></main>
+
+  <footer class="site-footer">
+    <span class="footer-word" aria-hidden="true">Build · Test · Iterate</span>
+    <div class="container">
+      <span>© <span data-year></span> Bryce Forsgren</span>
+      <a class="text-link" href="index.html">All work</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
